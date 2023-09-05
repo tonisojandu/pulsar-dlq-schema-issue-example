@@ -1,0 +1,14 @@
+@namespace("dlq.issue")
+protocol ControllerProtocol {
+	record SomeRecord {
+		/** Some Number */
+		long someNumber;
+
+	}
+
+	record IncompatibleRecord {
+		/** Some Number */
+		string someNumber;
+
+	}
+}
