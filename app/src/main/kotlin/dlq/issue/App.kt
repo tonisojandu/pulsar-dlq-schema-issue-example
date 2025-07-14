@@ -16,7 +16,7 @@ val DLQ_TOPIC = "dlq-topic"
 val RETRY_TOPIC = "retry-topic"
 
 fun main() {
-  PulsarContainer(DockerImageName.parse("apachepulsar/pulsar:3.1.0")).use { pulsar ->
+  PulsarContainer(DockerImageName.parse("apachepulsar/pulsar:3.3.7")).use { pulsar ->
     pulsar.start()
 
     val admin = PulsarAdmin.builder().serviceHttpUrl(pulsar.httpServiceUrl).build()
