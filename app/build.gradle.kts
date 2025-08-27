@@ -15,7 +15,9 @@ repositories {
     mavenCentral()
 }
 
-val PULSAR_VERSION = "3.3.7"
+//val PULSAR_VERSION = "3.3.7"
+val PULSAR_VERSION = "4.1.0-SNAPSHOT"
+//val PULSAR_VERSION = "4.0.6"
 //val PULSAR_VERSION = "3.1.0-SNAPSHOT"
 
 dependencies {
@@ -26,8 +28,6 @@ dependencies {
 
     implementation("org.apache.pulsar:pulsar-client:$PULSAR_VERSION")
     implementation("org.apache.pulsar:pulsar-client-admin:$PULSAR_VERSION")
-//    implementation("io.streamnative:pulsar-client:4.0.5.2")
-//    implementation("io.streamnative:pulsar-client-admin:4.0.5.2")
 }
 
 java {
