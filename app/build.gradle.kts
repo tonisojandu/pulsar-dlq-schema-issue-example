@@ -15,10 +15,7 @@ repositories {
     mavenCentral()
 }
 
-//val PULSAR_VERSION = "3.3.7"
-val PULSAR_VERSION = "4.1.0-SNAPSHOT"
-//val PULSAR_VERSION = "4.0.6"
-//val PULSAR_VERSION = "3.1.0-SNAPSHOT"
+val PULSAR_VERSION = "4.1.0"
 
 dependencies {
     implementation("ch.qos.logback:logback-core:1.4.11")
